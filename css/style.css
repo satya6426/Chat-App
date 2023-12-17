@@ -1,0 +1,190 @@
+
+body {
+   
+            
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Place it behind other elements */
+}
+
+/* Rest of your existing styles */
+nav {
+    background-color: #4267b2;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+.profile-picture {
+    display: block;
+    margin-left: 20px; /* Adjust the margin as needed */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.container {
+    height: 2px;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+    margin: auto;
+    margin-bottom: 5px;
+    height: 55vh;
+    padding: 20px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+/* video background */
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+ 
+
+nav {
+    background-color: #4267b2; /* Messenger blue */
+    padding: 12px;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+nav img {
+    width: 200%;
+}
+img{
+    position: absolute;
+
+}
+/* Add the following styles to your existing CSS */
+
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.message-profile {
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+
+.container {
+    max-width: 800px;
+    background-color: #fff; /* White background */
+    margin: auto;
+    width: 90vh;
+    height: 80vh;
+    padding: 20px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: transparent; 
+    backdrop-filter: blur(16px); 
+}
+/* h2{
+    margin-top: 0px;
+} */
+
+.message {
+    background-color: #e4e6eb; /* Light grey background */
+    width: auto; /* Adjusted width for better readability */
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #d4d6db; /* Light grey border */
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+#send-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+#messageInp {
+    flex: 1;
+    border: 2px solid #d4d6db; /* Light grey border */
+    border-radius: 6px;
+    height: 24px;
+    padding: 5px;
+}
+
+.btn {
+    cursor: pointer;
+    position: relative;
+    bottom: 0;
+    border: 2px solid #4267b2; /* Messenger blue border */
+    border-radius: 6px;
+    height: 34px;
+    padding: 0 10px;
+    background-color: #4267b2; /* Messenger blue background */
+    color: #fff; /* White text color */
+    margin-left: 10px;
+}
+
+body {
+    
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5; /* Slightly off-white background */
+}
